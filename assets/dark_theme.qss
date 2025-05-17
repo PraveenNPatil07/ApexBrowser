@@ -1,0 +1,32 @@
+
+                QMainWindow, QWidget {
+                    background-color: #2D2D30;
+                    color: #E0E0E0;
+                }
+                QTabWidget::pane {
+                    border: 1px solid #3E3E42;
+                }
+                QTabBar::tab {
+                    background-color: #252526;
+                    color: #E0E0E0;
+                    padding: 8px 15px;
+                }
+                QTabBar::tab:selected {
+                    background-color: #3E3E42;
+                }
+                QLineEdit {
+                    background-color: #333337;
+                    color: #E0E0E0;
+                    border: 1px solid #3E3E42;
+                    padding: 5px;
+                }
+                QPushButton {
+                    background-color: #0E639C;
+                    color: white;
+                    border: none;
+                    padding: 5px 10px;
+                }
+                QPushButton:hover {
+                    background-color: #1177BB;
+                }
+            

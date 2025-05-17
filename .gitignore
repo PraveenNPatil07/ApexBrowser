@@ -1,0 +1,26 @@
+﻿# Python virtual environment
+.venv/
+venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.class
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
+
+# IDE files
+.idea/
+.vscode/
+
+# Project-specific generated files
+data/*
+downloads/*
+cache/*
+profiles/*
+!data/.gitkeep
+!downloads/.gitkeep
